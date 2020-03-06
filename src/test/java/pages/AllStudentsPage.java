@@ -17,11 +17,16 @@ public class AllStudentsPage {
     @FindBy(xpath = "//*[contains(text(),'All Students')]")
     public WebElement allStudentsButton;
 
-    @FindBy(xpath = "//*[contains(text(),'All Students')]")
+    @FindBy(xpath = "//*[@class='profile-widget']")
     public List<WebElement> allStudents;
 
     @FindBy(xpath = "//*[@class='col-lg-7 col-md-12 col-sm-12 col-12']")
     public WebElement allStudentsHeader;
+
+    @FindBy(xpath = "//div[@class='profile-widget']//h4/a")
+    public List<WebElement> allStudentsNames;
+
+
 
 
 
