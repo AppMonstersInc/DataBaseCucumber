@@ -27,4 +27,3 @@ Feature: As a User I should able to create student
     When I click submit button
     Then It should see new student in the All students table
     And Click on the student that was just created
-    Then  Verify if student in the data base have the same info
