@@ -13,14 +13,18 @@ public class DBUtility {
     private static ResultSet resultSet;
 
 
-    public static void createConnection() throws SQLException {
+    public static void createConnection() {
 
         switch (Config.getProperty("dbType")) {
 
             case "oracle":
-                connection = DriverManager.getConnection(Config.getProperty("oracleURL"),
-                        Config.getProperty("oracleUserName"),
-                        Config.getProperty("oraclePassword"));
+                try {
+                    connection = DriverManager.getConnection(Config.getProperty("oracleURL"),
+                            Config.getProperty("oracleUserName"),
+                            Config.getProperty("oraclePassword"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
                 break;
             case "mysql":
                 // create connection for mysql
@@ -32,18 +36,45 @@ public class DBUtility {
     }
 
 
-    public static List<Map<Object,Object>> executeQuery(String query) throws SQLException{
-        statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
-        resultSet = statement.executeQuery(query);
-        ResultSetMetaData metaData = resultSet.getMetaData();
-        int numberOfColumns = metaData.getColumnCount();
+    public static List<Map<Object,Object>> executeQuery(String query){
+        try {
+            statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            resultSet = statement.executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        ResultSetMetaData metaData = null;
+        try {
+            metaData = resultSet.getMetaData();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        int numberOfColumns = 0;
+        try {
+            numberOfColumns = metaData.getColumnCount();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
         List<Map<Object, Object>> data = new ArrayList<>();
 
-        while (resultSet.next()){
+        while (true){
+            try {
+                if (!resultSet.next()) break;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             Map<Object,Object> map = new HashMap<>();
             for (int i =1; i<=numberOfColumns; i++){
-                map.put(metaData.getColumnName(i), resultSet.getObject(i));
+                try {
+                    map.put(metaData.getColumnName(i), resultSet.getObject(i));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
             data.add(map);
         }
