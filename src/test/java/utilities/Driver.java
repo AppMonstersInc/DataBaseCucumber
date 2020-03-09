@@ -18,7 +18,7 @@ public class Driver {
             switch (Config.getProperty("browser")){
                 case "chrome":
                     System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Desktop\\chicagoselenimb14\\src\\drivers\\chromedriver.exe");
-                  // WebDriverManager.chromedriver().setup();
+                   WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
             }

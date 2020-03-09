@@ -907,3 +907,94 @@
 [WARN ] 2020-03-09 12:02:28.402 [main] Log - All student buttons verifications
 [INFO ] 2020-03-09 12:02:39.873 [main] Log - Scenario start name: I should be able to add a new teacher
 [INFO ] 2020-03-09 12:02:40.301 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 15:55:24.958 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 15:55:25.021 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 15:55:25.025 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 15:55:25.035 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 15:55:25.041 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 15:55:25.046 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 15:55:25.050 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 15:56:03.395 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 15:56:03.428 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 15:56:03.434 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 15:56:03.445 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 15:56:03.453 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 15:56:03.459 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 15:56:03.465 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:02:03.033 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 16:02:03.065 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 16:02:03.071 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 16:02:03.081 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 16:02:03.090 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 16:02:03.095 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 16:02:03.101 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:06:46.763 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 16:06:46.794 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 16:06:46.799 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 16:06:46.808 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 16:06:46.814 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 16:06:46.819 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 16:06:46.823 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:09:33.844 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 16:09:33.879 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 16:09:33.885 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 16:09:33.893 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 16:09:33.899 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 16:09:33.905 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 16:09:33.908 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:11:07.871 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-09 16:11:37.341 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-09 16:11:39.219 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:11:39.696 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-09 16:11:50.539 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-09 16:11:59.542 [main] Log - Click on student that was created
+[INFO ] 2020-03-09 16:12:05.730 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 16:12:06.037 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:12:06.173 [main] Log - User is clicking on students button
+[WARN ] 2020-03-09 16:12:07.176 [main] Log - Add student buttons verification
+[WARN ] 2020-03-09 16:12:07.203 [main] Log - All student buttons verifications
+[INFO ] 2020-03-09 16:12:07.225 [main] Log - Click Add student button
+[INFO ] 2020-03-09 16:12:07.451 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-09 16:12:07.483 [main] Log - Add Header verification
+[INFO ] 2020-03-09 16:12:08.536 [main] Log - 
+[INFO ] 2020-03-09 16:12:08.537 [main] Log - User is entering first name
+[INFO ] 2020-03-09 16:12:09.651 [main] Log - User is entering last name
+[INFO ] 2020-03-09 16:12:10.761 [main] Log - User is entering email number
+[INFO ] 2020-03-09 16:12:11.904 [main] Log - User is entering password
+[INFO ] 2020-03-09 16:12:12.969 [main] Log - User is entering confirm password
+[INFO ] 2020-03-09 16:12:14.027 [main] Log - User is entering join date
+[INFO ] 2020-03-09 16:12:15.190 [main] Log - User is entering subject 
+[INFO ] 2020-03-09 16:12:15.355 [main] Log - User is entering mobile number
+[INFO ] 2020-03-09 16:12:15.457 [main] Log - User select gender
+[INFO ] 2020-03-09 16:12:15.540 [main] Log - User is entering admission number 
+[INFO ] 2020-03-09 16:12:16.658 [main] Log - User is entering birthday 
+[INFO ] 2020-03-09 16:12:17.756 [main] Log - User is entering major 
+[INFO ] 2020-03-09 16:12:17.815 [main] Log - User select the Batch
+[INFO ] 2020-03-09 16:12:17.977 [main] Log - User is entering section 
+[INFO ] 2020-03-09 16:12:18.022 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-09 16:12:18.263 [main] Log - User is entering company name 
+[INFO ] 2020-03-09 16:12:18.380 [main] Log - User is entering start day 
+[INFO ] 2020-03-09 16:12:18.457 [main] Log - User is entering street 
+[INFO ] 2020-03-09 16:12:18.587 [main] Log - User is entering state 
+[INFO ] 2020-03-09 16:12:18.648 [main] Log - User is entering title
+[INFO ] 2020-03-09 16:12:18.719 [main] Log - User is entering city 
+[INFO ] 2020-03-09 16:12:18.793 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-09 16:12:18.858 [main] Log - User click submit button
+[WARN ] 2020-03-09 16:12:18.908 [main] Log - All student header verification
+[WARN ] 2020-03-09 16:12:18.933 [main] Log - Creating student
+[INFO ] 2020-03-09 16:12:19.263 [main] Log - Click on student that was created
+[WARN ] 2020-03-09 16:12:24.976 [main] Log - Full name verification in data base
+[INFO ] 2020-03-09 16:12:25.601 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-09 16:12:25.602 [main] Log - Join date verification with data base
+[WARN ] 2020-03-09 16:12:26.038 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-09 16:12:26.537 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-09 16:12:27.026 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-09 16:12:27.991 [main] Log - Section verification with data base
+[WARN ] 2020-03-09 16:12:28.910 [main] Log - Subject verification with data base
+[INFO ] 2020-03-09 16:12:28.934 [main] Log - Scenario start name: User should be able to delete student
+[INFO ] 2020-03-09 16:12:29.243 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:12:29.399 [main] Log - User is clicking on students button
+[WARN ] 2020-03-09 16:12:30.404 [main] Log - Add student buttons verification
+[WARN ] 2020-03-09 16:12:30.432 [main] Log - All student buttons verifications
+[INFO ] 2020-03-09 16:12:46.623 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:12:46.913 [main] Log - User on http://cybertektraining.com/

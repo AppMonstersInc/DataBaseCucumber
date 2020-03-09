@@ -1,4 +1,4 @@
-package step_definitions.teacher_steps;
+package step_definitions.delete_teacher_step_defs;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,7 +13,7 @@ import utilities.SeleniumUtils;
 import java.util.List;
 import java.util.Map;
 
-public class deleteTeacher_steps_Difs {
+public class DeleteTeacher_steps_Defs {
 
 
 

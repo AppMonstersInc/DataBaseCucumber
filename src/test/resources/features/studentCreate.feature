@@ -30,12 +30,12 @@ Feature: As a User I should able to create student
     Given As a User I am in the main menu page
     And I click to Students button
     And I click all student button
-    And Click on the student that was just created and take this id
-    And I put the id in search box
-    Then I verify this user is displayed
-    And Delete this student
-    Then Verify student was deleted from UI
-    Then Verify student was deleted from DB
+#    And Click on the student that was just created and take this id
+#    And I put the id in search box
+#    Then I verify this user is displayed
+#    And Delete this student
+#    Then Verify student was deleted from UI
+#    Then Verify student was deleted from DB
 
 
 
