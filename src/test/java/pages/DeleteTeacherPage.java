@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class DeleteTeacherPage {
 
     public DeleteTeacherPage(){
@@ -37,5 +39,13 @@ public class DeleteTeacherPage {
 @FindBy(xpath = "//button[@class='btn btn-danger']")
     public WebElement deleteBtnInsideConfirmationWindow;
 
+@FindBy(xpath = "(//a[@class='avatar'])[1]")
+    public WebElement teacherProfile;
+
+@FindBy(xpath = "(//*[@id=\"app\"]/div[2]/div/div/div/ul/li/span[2]/a)[1]")
+    public WebElement theTeacherId;
+
+    @FindBy(xpath = "//a[@class='avatar']")
+    public List<WebElement>  teachersProfiles;
 
 }
