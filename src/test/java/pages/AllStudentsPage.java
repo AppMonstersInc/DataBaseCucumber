@@ -26,6 +26,17 @@ public class AllStudentsPage {
     @FindBy(xpath = "//div[@class='profile-widget']//h4/a")
     public List<WebElement> allStudentsNames;
 
+    @FindBy(xpath = "//a[@class='action-icon dropdown-toggle']")
+    public List<WebElement> allStudentsThreeDots;
+
+    @FindBy(xpath = "//a[.=' Edit']")
+    public List<WebElement> allStudentsEdit;
+
+
+
+
+
+
 
 
 
