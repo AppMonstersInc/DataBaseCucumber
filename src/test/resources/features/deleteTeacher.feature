@@ -1,6 +1,4 @@
-
-@deleteTeacher
-  @Smoke
+ @Smoke
 Feature: As a User I should able to delete teacher
 
   Scenario: As a User I should able to delete teacher
