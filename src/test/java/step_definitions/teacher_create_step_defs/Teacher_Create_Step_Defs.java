@@ -4,9 +4,8 @@ import com.github.javafaker.Faker;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.java.it.Ma;
-import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import pages.AddTeacherPage;
@@ -14,12 +13,12 @@ import pages.NewTecherProfilePage;
 import utilities.DBUtility;
 import utilities.Driver;
 import utilities.SeleniumUtils;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 public class Teacher_Create_Step_Defs {
     AddTeacherPage addTeacherPage = new AddTeacherPage();
@@ -34,6 +33,8 @@ public class Teacher_Create_Step_Defs {
     String salary = faker.number().digits(6);
     String address = faker.address().fullAddress();
     List<Map<Object,Object>> mydata;
+    String departmentCheck;
+    String inputEmail = faker.pokemon().name();
 
 
 
@@ -73,7 +74,7 @@ public class Teacher_Create_Step_Defs {
         SeleniumUtils.pause(2);
         addTeacherPage.lastNameInput.click();
         addTeacherPage.lastNameInput.sendKeys(lastName);
-        addTeacherPage.emailInput.sendKeys("abc@mail.com");
+        addTeacherPage.emailInput.sendKeys(inputEmail);
         addTeacherPage.joinDateInputBox.sendKeys(formattedDate+"20");
         addTeacherPage.passwordInput.sendKeys("Test1");
         addTeacherPage.confirmPasswordInput.sendKeys("Test1");
@@ -81,9 +82,15 @@ public class Teacher_Create_Step_Defs {
         addTeacherPage.mobileNumberInput.sendKeys(phoneNumber);
         addTeacherPage.genderButton.click();
         Select select = new Select(addTeacherPage.genderButton);
-        select.selectByIndex(0);
-        addTeacherPage.departmentInputBox.click();
-        addTeacherPage.scienceButton.click();
+        Random random = new Random(1);
+        int gen = random.nextInt(2);
+        select.selectByIndex(gen);
+        Select depSelect = new Select(addTeacherPage.departmentInputBox);
+        int dep = random.nextInt(5);
+        depSelect.selectByIndex(dep);
+        dep+=1;
+        WebElement tempDep = Driver.getDriver().findElement(By.xpath("(//label[.='Department']/..//select//option)["+ dep +"]"));
+        departmentCheck = tempDep.getText();
         addTeacherPage.birthDateInputBox.sendKeys("04/15/1984");
         addTeacherPage.salaryInputBox.click();
         addTeacherPage.salaryInputBox.clear();
@@ -104,8 +111,21 @@ public class Teacher_Create_Step_Defs {
     public void i_verify_if_new_teacher_information_is_matching_to_database() {
         DBUtility.createConnection();
         List <WebElement> teachersList = addTeacherPage.listOfTeachers;
-        WebElement lastTeacher = teachersList.get(teachersList.size()-1);
-        lastTeacher.click();
+        List <WebElement> departmentsList = addTeacherPage.listOfTeachersDepartment;
+        int indexOfTeacherList = 0;
+        boolean nameAndDepartmentVerification = false;
+        for(int i = teachersList.size()-1; i >= 0; i--){
+            WebElement firstNameCheck = teachersList.get(i);
+            WebElement webElementDepartment = departmentsList.get(i);
+            if(firstNameCheck.getText().equals(firstName) && webElementDepartment.getText().equals(departmentCheck)){
+                indexOfTeacherList = i;
+                nameAndDepartmentVerification = true;
+                break;
+            }
+        }
+        Assert.assertTrue("New created teacher was NOT found in the list. FAILED!!!",nameAndDepartmentVerification);
+        WebElement webElementNewTeacher = teachersList.get(indexOfTeacherList);
+        webElementNewTeacher.click();
         SeleniumUtils.pause(2);
         String uiId = newTecherProfilePage.id.getText();
         mydata = DBUtility.executeQuery("select * from teacher where teacher_id = " + uiId);
@@ -121,7 +141,7 @@ public class Teacher_Create_Step_Defs {
         Assert.assertTrue("Join date is not matching in UI and DB",uiJoinDate.equals(dbJoinDate));
         String uiEmail = newTecherProfilePage.email.getText();
         String dbEmail = mydata.get(0).get("EMAIL_ADDRESS").toString();
-        Assert.assertTrue("Email is not matching in UI and DB",uiEmail.equals(dbEmail));
+        Assert.assertTrue("Email is not matching in UI and DB",uiEmail.equals(dbEmail) && uiEmail.equals(inputEmail) && dbEmail.equals(inputEmail));
         String uiAddress = newTecherProfilePage.permanentAddress.getText();
         String dbAddress = mydata.get(0).get("PREMANENT_ADDRESS").toString();
         Assert.assertTrue("Permanent address is not matching in UI and DB",uiAddress.equals(dbAddress));

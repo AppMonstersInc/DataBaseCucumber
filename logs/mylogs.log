@@ -326,3 +326,141 @@
 [WARN ] 2020-03-08 20:25:43.511 [main] Log - Subject verification with data base
 [INFO ] 2020-03-08 20:25:43.547 [main] Log - Scenario start name: I should be able to add a new teacher
 [INFO ] 2020-03-08 20:25:43.920 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:30:08.480 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 22:30:12.428 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:30:12.535 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 22:30:13.536 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 22:30:13.585 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 22:30:13.615 [main] Log - Click Add student button
+[INFO ] 2020-03-08 22:30:13.906 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 22:30:13.937 [main] Log - Add Header verification
+[INFO ] 2020-03-08 22:30:15.036 [main] Log - 
+[INFO ] 2020-03-08 22:30:15.036 [main] Log - User is entering first name
+[INFO ] 2020-03-08 22:30:16.209 [main] Log - User is entering last name
+[INFO ] 2020-03-08 22:30:17.336 [main] Log - User is entering email number
+[INFO ] 2020-03-08 22:30:18.536 [main] Log - User is entering password
+[INFO ] 2020-03-08 22:30:19.629 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 22:30:20.698 [main] Log - User is entering join date
+[INFO ] 2020-03-08 22:30:21.877 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 22:30:22.075 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 22:30:22.187 [main] Log - User select gender
+[INFO ] 2020-03-08 22:30:22.299 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 22:30:23.399 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 22:30:24.559 [main] Log - User is entering major 
+[INFO ] 2020-03-08 22:30:24.633 [main] Log - User select the Batch
+[INFO ] 2020-03-08 22:30:24.856 [main] Log - User is entering section 
+[INFO ] 2020-03-08 22:30:24.901 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 22:30:25.214 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 22:30:25.318 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 22:30:25.409 [main] Log - User is entering street 
+[INFO ] 2020-03-08 22:30:25.544 [main] Log - User is entering state 
+[INFO ] 2020-03-08 22:30:25.634 [main] Log - User is entering title
+[INFO ] 2020-03-08 22:30:25.722 [main] Log - User is entering city 
+[INFO ] 2020-03-08 22:30:25.803 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 22:30:25.878 [main] Log - User click submit button
+[WARN ] 2020-03-08 22:30:25.934 [main] Log - All student header verification
+[WARN ] 2020-03-08 22:30:25.974 [main] Log - Creating student
+[INFO ] 2020-03-08 22:30:26.732 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 22:30:32.888 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 22:30:33.566 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 22:30:33.577 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 22:30:34.283 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 22:30:35.235 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:30:35.858 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:30:36.413 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 22:30:36.767 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 22:30:36.797 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 22:30:37.184 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:03:06.841 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:03:12.058 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:05:04.999 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:05:08.991 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:08:04.630 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:08:08.532 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:11:10.393 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:11:13.800 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:20:41.487 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:20:44.996 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:31:10.442 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:31:15.278 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:32:26.045 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:32:30.375 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:36:47.368 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:36:50.642 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:39:23.937 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:39:27.886 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:40:55.148 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:40:58.652 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:44:24.992 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:44:29.012 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:47:21.783 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:47:25.856 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:50:09.204 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:50:13.032 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:55:25.158 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:55:35.001 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 23:56:20.658 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 23:56:25.371 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 00:01:42.483 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 00:01:45.733 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 00:03:32.590 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 00:03:35.823 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 00:07:34.226 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 00:07:37.888 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 14:26:26.963 [main] Log - Scenario start name: delete
+[INFO ] 2020-03-09 14:26:29.791 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 14:43:34.871 [main] Log - Scenario start name: delete
+[INFO ] 2020-03-09 14:43:37.942 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 14:45:48.543 [main] Log - Scenario start name: delete
+[INFO ] 2020-03-09 14:45:51.775 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 14:47:05.240 [main] Log - Scenario start name: delete
+[INFO ] 2020-03-09 14:47:08.244 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 15:41:21.914 [main] Log - Scenario start name: delete
+[INFO ] 2020-03-09 15:41:25.041 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:03:16.075 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:03:19.161 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:04:10.771 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-09 16:04:13.469 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-09 16:04:13.659 [main] Log - User is clicking on students button
+[WARN ] 2020-03-09 16:04:14.662 [main] Log - Add student buttons verification
+[WARN ] 2020-03-09 16:04:14.715 [main] Log - All student buttons verifications
+[INFO ] 2020-03-09 16:04:14.751 [main] Log - Click Add student button
+[INFO ] 2020-03-09 16:04:15.031 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-09 16:04:15.080 [main] Log - Add Header verification
+[INFO ] 2020-03-09 16:04:16.175 [main] Log - 
+[INFO ] 2020-03-09 16:04:16.176 [main] Log - User is entering first name
+[INFO ] 2020-03-09 16:04:17.308 [main] Log - User is entering last name
+[INFO ] 2020-03-09 16:04:18.425 [main] Log - User is entering email number
+[INFO ] 2020-03-09 16:04:19.583 [main] Log - User is entering password
+[INFO ] 2020-03-09 16:04:20.684 [main] Log - User is entering confirm password
+[INFO ] 2020-03-09 16:04:21.751 [main] Log - User is entering join date
+[INFO ] 2020-03-09 16:04:22.958 [main] Log - User is entering subject 
+[INFO ] 2020-03-09 16:04:23.242 [main] Log - User is entering mobile number
+[INFO ] 2020-03-09 16:04:23.339 [main] Log - User select gender
+[INFO ] 2020-03-09 16:04:23.452 [main] Log - User is entering admission number 
+[INFO ] 2020-03-09 16:04:24.549 [main] Log - User is entering birthday 
+[INFO ] 2020-03-09 16:04:25.665 [main] Log - User is entering major 
+[INFO ] 2020-03-09 16:04:25.739 [main] Log - User select the Batch
+[INFO ] 2020-03-09 16:04:25.957 [main] Log - User is entering section 
+[INFO ] 2020-03-09 16:04:26.001 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-09 16:04:26.295 [main] Log - User is entering company name 
+[INFO ] 2020-03-09 16:04:26.404 [main] Log - User is entering start day 
+[INFO ] 2020-03-09 16:04:26.492 [main] Log - User is entering street 
+[INFO ] 2020-03-09 16:04:26.647 [main] Log - User is entering state 
+[INFO ] 2020-03-09 16:04:26.711 [main] Log - User is entering title
+[INFO ] 2020-03-09 16:04:26.813 [main] Log - User is entering city 
+[INFO ] 2020-03-09 16:04:26.927 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-09 16:04:26.985 [main] Log - User click submit button
+[WARN ] 2020-03-09 16:04:27.053 [main] Log - All student header verification
+[WARN ] 2020-03-09 16:04:27.095 [main] Log - Creating student
+[INFO ] 2020-03-09 16:04:27.519 [main] Log - Click on student that was created
+[WARN ] 2020-03-09 16:04:33.656 [main] Log - Full name verification in data base
+[INFO ] 2020-03-09 16:04:34.052 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-09 16:04:34.064 [main] Log - Join date verification with data base
+[WARN ] 2020-03-09 16:04:34.480 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-09 16:04:34.857 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-09 16:04:35.278 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-09 16:04:35.651 [main] Log - Section verification with data base
+[WARN ] 2020-03-09 16:04:36.015 [main] Log - Subject verification with data base
+[INFO ] 2020-03-09 16:04:36.049 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-09 16:04:36.410 [main] Log - User on http://cybertektraining.com/

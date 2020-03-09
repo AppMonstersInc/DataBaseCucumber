@@ -10,7 +10,7 @@ public class AllTeacherPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//*[@class='active' and contains(text(),'All Teachers')]")
+    @FindBy(xpath = "//a[.='All Teacher']")
     public WebElement allTeacherButton;
 
     @FindBy(xpath = " //a[@class='btn btn-primary btn-rounded float-right']")
