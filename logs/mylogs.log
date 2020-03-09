@@ -326,3 +326,472 @@
 [WARN ] 2020-03-08 20:25:43.511 [main] Log - Subject verification with data base
 [INFO ] 2020-03-08 20:25:43.547 [main] Log - Scenario start name: I should be able to add a new teacher
 [INFO ] 2020-03-08 20:25:43.920 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:03:23.767 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:03:33.578 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:03:36.623 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:03:42.232 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:04:00.676 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:04:01.821 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:04:02.386 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:04:03.386 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:04:03.456 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:04:03.530 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:04:04.307 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:04:04.461 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:04:05.806 [main] Log - 
+[INFO ] 2020-03-08 21:04:05.806 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:04:07.075 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:04:08.431 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:04:09.976 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:04:11.170 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:04:12.358 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:04:13.909 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:04:14.444 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:04:14.836 [main] Log - User select gender
+[INFO ] 2020-03-08 21:04:15.142 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:04:16.495 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:04:17.853 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:04:18.079 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:04:18.589 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:04:18.746 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:04:19.547 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:04:20.190 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:04:20.481 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:04:21.181 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:04:21.503 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:04:21.853 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:04:22.122 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:04:22.299 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:04:22.438 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:04:22.507 [main] Log - Creating student
+[INFO ] 2020-03-08 21:04:23.325 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 21:04:25.543 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 21:04:26.298 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 21:04:26.328 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 21:04:26.974 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 21:04:27.591 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:04:28.018 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:04:28.459 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 21:04:28.923 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 21:04:29.001 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:04:29.845 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:06:26.597 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:06:35.714 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:06:37.756 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:06:43.671 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:07:02.185 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:07:03.075 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:07:03.757 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:07:04.757 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:07:04.833 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:07:04.906 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:07:05.806 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:07:05.985 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:07:07.163 [main] Log - 
+[INFO ] 2020-03-08 21:07:07.163 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:07:08.443 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:07:09.845 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:07:11.460 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:07:12.746 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:07:13.942 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:07:15.447 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:07:16.560 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:07:16.814 [main] Log - User select gender
+[INFO ] 2020-03-08 21:07:17.066 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:07:18.295 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:07:19.675 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:07:19.911 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:07:20.418 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:07:20.568 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:07:21.406 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:07:21.852 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:07:22.140 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:07:22.721 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:07:22.942 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:07:23.352 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:07:23.758 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:07:23.944 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:07:24.122 [main] Log - All student header verification
+[INFO ] 2020-03-08 21:07:25.598 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:07:26.796 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:27:24.058 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:27:35.108 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:27:37.604 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:27:43.626 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:28:02.244 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:28:03.460 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:28:04.027 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:28:05.027 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:28:05.105 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:28:05.177 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:28:05.996 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:28:06.169 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:28:07.345 [main] Log - 
+[INFO ] 2020-03-08 21:28:07.345 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:28:08.765 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:28:10.142 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:28:11.784 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:28:12.991 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:28:14.227 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:28:15.756 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:28:16.416 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:28:16.668 [main] Log - User select gender
+[INFO ] 2020-03-08 21:28:16.930 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:28:18.200 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:28:19.602 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:28:19.860 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:28:20.396 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:28:20.522 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:28:21.299 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:28:21.649 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:28:21.938 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:28:22.522 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:28:22.846 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:28:23.257 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:28:23.503 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:28:23.762 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:28:23.929 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:28:24.005 [main] Log - Creating student
+[INFO ] 2020-03-08 21:28:24.756 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 21:28:26.778 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 21:28:27.276 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 21:28:27.307 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 21:28:27.752 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 21:28:28.219 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:28:28.655 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:28:29.087 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 21:28:29.542 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 21:28:29.606 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:28:30.816 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:30:32.756 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:30:42.357 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:30:44.383 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:30:51.410 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:31:21.956 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:31:23.232 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:31:23.770 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:31:24.771 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:31:24.865 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:31:24.934 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:31:25.487 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:31:25.662 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:31:26.777 [main] Log - 
+[INFO ] 2020-03-08 21:31:26.777 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:31:28.202 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:31:29.654 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:31:31.420 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:31:32.637 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:31:33.885 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:31:35.460 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:31:36.488 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:31:36.776 [main] Log - User select gender
+[INFO ] 2020-03-08 21:31:37.076 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:31:38.396 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:31:39.811 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:31:40.066 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:31:40.552 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:31:40.673 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:31:41.453 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:31:41.869 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:31:42.177 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:31:42.770 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:31:42.997 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:31:43.529 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:31:43.800 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:31:44.050 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:31:44.227 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:31:44.589 [main] Log - Creating student
+[INFO ] 2020-03-08 21:31:45.119 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 21:31:46.515 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 21:31:46.939 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 21:31:46.961 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 21:31:47.395 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 21:31:48.007 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:31:48.445 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:31:48.905 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 21:31:49.366 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 21:31:49.443 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:31:50.434 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:37:27.480 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:37:36.939 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:37:39.484 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:37:45.249 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:38:04.212 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 21:38:07.361 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:38:08.447 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:38:08.992 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:38:09.992 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:38:10.073 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:38:10.146 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:38:10.873 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:38:11.068 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:38:12.261 [main] Log - 
+[INFO ] 2020-03-08 21:38:12.261 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:38:13.536 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:38:15.093 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:38:16.741 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:38:17.976 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:38:19.187 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:38:20.744 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:38:21.549 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:38:21.842 [main] Log - User select gender
+[INFO ] 2020-03-08 21:38:22.101 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:38:23.385 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:38:24.846 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:38:25.127 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:38:25.596 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:38:25.721 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:38:26.479 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:38:26.800 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:38:27.132 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:38:27.730 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:38:27.931 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:38:28.350 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:38:28.729 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:38:28.944 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:38:29.130 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:38:29.211 [main] Log - Creating student
+[INFO ] 2020-03-08 21:38:29.971 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 21:38:31.070 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 21:38:31.585 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 21:38:31.611 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 21:38:32.210 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 21:38:32.750 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:38:33.283 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:38:33.805 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 21:38:34.248 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 21:38:34.342 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:38:35.440 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:40:32.538 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:40:42.712 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:40:45.039 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:40:51.733 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:41:11.321 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 21:41:13.766 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:41:14.964 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:41:15.584 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:41:16.587 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:41:16.664 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:41:16.751 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:41:17.443 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:41:17.610 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:41:18.804 [main] Log - 
+[INFO ] 2020-03-08 21:41:18.804 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:41:20.156 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:41:21.626 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:41:23.432 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:41:24.652 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:41:25.873 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:41:27.367 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:41:28.000 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:41:28.279 [main] Log - User select gender
+[INFO ] 2020-03-08 21:41:28.585 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:41:29.881 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:41:31.330 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:41:31.600 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:41:32.075 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:41:32.220 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:41:33.064 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:41:33.459 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:41:33.835 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:41:34.479 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:41:34.749 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:41:35.257 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:41:35.634 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:41:35.832 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:41:36.024 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:41:36.399 [main] Log - Creating student
+[INFO ] 2020-03-08 21:41:36.947 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 21:41:38.172 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 21:41:38.890 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 21:41:38.910 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 21:41:39.335 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 21:41:39.904 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:41:40.356 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 21:41:40.820 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 21:41:41.242 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 21:41:41.302 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:41:42.504 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:55:57.154 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:56:09.019 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:56:12.091 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:56:18.114 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:56:37.482 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 21:56:40.013 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:56:41.184 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:56:41.798 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:56:42.799 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:56:42.893 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:56:42.995 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:56:43.788 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:56:44.009 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:56:45.179 [main] Log - 
+[INFO ] 2020-03-08 21:56:45.179 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:56:46.539 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:56:47.957 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:56:49.673 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:56:50.885 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:56:52.151 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:56:53.771 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:56:54.521 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:56:54.824 [main] Log - User select gender
+[INFO ] 2020-03-08 21:56:55.103 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:56:56.403 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:56:57.946 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:56:58.236 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:56:58.730 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:56:58.867 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:56:59.684 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:57:00.270 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:57:00.633 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:57:01.382 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:57:01.597 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:57:02.114 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:57:02.517 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:57:02.696 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:57:02.914 [main] Log - All student header verification
+[INFO ] 2020-03-08 21:57:04.307 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 21:57:05.492 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:58:06.383 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 21:58:16.674 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:58:19.365 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 21:58:25.617 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 21:58:51.914 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 21:59:09.281 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 21:59:10.915 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 21:59:11.645 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 21:59:12.647 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 21:59:12.732 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 21:59:12.815 [main] Log - Click Add student button
+[INFO ] 2020-03-08 21:59:13.665 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 21:59:13.914 [main] Log - Add Header verification
+[INFO ] 2020-03-08 21:59:15.027 [main] Log - 
+[INFO ] 2020-03-08 21:59:15.027 [main] Log - User is entering first name
+[INFO ] 2020-03-08 21:59:16.587 [main] Log - User is entering last name
+[INFO ] 2020-03-08 21:59:23.134 [main] Log - User is entering email number
+[INFO ] 2020-03-08 21:59:24.668 [main] Log - User is entering password
+[INFO ] 2020-03-08 21:59:25.868 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 21:59:27.063 [main] Log - User is entering join date
+[INFO ] 2020-03-08 21:59:33.683 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 21:59:34.375 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 21:59:34.648 [main] Log - User select gender
+[INFO ] 2020-03-08 21:59:34.996 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 21:59:36.261 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 21:59:37.740 [main] Log - User is entering major 
+[INFO ] 2020-03-08 21:59:38.040 [main] Log - User select the Batch
+[INFO ] 2020-03-08 21:59:38.529 [main] Log - User is entering section 
+[INFO ] 2020-03-08 21:59:38.641 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 21:59:39.669 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 21:59:40.024 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 21:59:40.447 [main] Log - User is entering street 
+[INFO ] 2020-03-08 21:59:41.224 [main] Log - User is entering state 
+[INFO ] 2020-03-08 21:59:41.517 [main] Log - User is entering title
+[INFO ] 2020-03-08 21:59:41.802 [main] Log - User is entering city 
+[INFO ] 2020-03-08 21:59:42.132 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 21:59:42.359 [main] Log - User click submit button
+[WARN ] 2020-03-08 21:59:47.593 [main] Log - All student header verification
+[WARN ] 2020-03-08 21:59:48.250 [main] Log - Creating student
+[INFO ] 2020-03-08 21:59:48.738 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 22:00:03.147 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 22:00:04.151 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:01:44.610 [main] Log - Scenario start name: T/C: verification of "All students" button
+[INFO ] 2020-03-08 22:01:55.558 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:01:57.683 [main] Log - Scenario start name: T/C: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 22:02:03.399 [main] Log - Scenario start name: T/C: verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 22:02:21.693 [main] Log - Click on student that was created
+[INFO ] 2020-03-08 22:02:24.210 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 22:02:25.144 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:02:25.784 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 22:02:26.787 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 22:02:26.863 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 22:02:26.938 [main] Log - Click Add student button
+[INFO ] 2020-03-08 22:02:27.637 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 22:02:27.776 [main] Log - Add Header verification
+[INFO ] 2020-03-08 22:02:29.017 [main] Log - 
+[INFO ] 2020-03-08 22:02:29.017 [main] Log - User is entering first name
+[INFO ] 2020-03-08 22:02:30.347 [main] Log - User is entering last name
+[INFO ] 2020-03-08 22:02:31.776 [main] Log - User is entering email number
+[INFO ] 2020-03-08 22:02:33.470 [main] Log - User is entering password
+[INFO ] 2020-03-08 22:02:34.727 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 22:02:35.968 [main] Log - User is entering join date
+[INFO ] 2020-03-08 22:02:37.527 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 22:02:38.085 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 22:02:38.333 [main] Log - User select gender
+[INFO ] 2020-03-08 22:02:38.566 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 22:02:39.819 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 22:02:41.196 [main] Log - User is entering major 
+[INFO ] 2020-03-08 22:02:41.417 [main] Log - User select the Batch
+[INFO ] 2020-03-08 22:02:41.954 [main] Log - User is entering section 
+[INFO ] 2020-03-08 22:02:42.079 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 22:02:42.933 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 22:02:43.232 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 22:02:43.514 [main] Log - User is entering street 
+[INFO ] 2020-03-08 22:02:44.069 [main] Log - User is entering state 
+[INFO ] 2020-03-08 22:02:44.439 [main] Log - User is entering title
+[INFO ] 2020-03-08 22:02:44.927 [main] Log - User is entering city 
+[INFO ] 2020-03-08 22:02:45.207 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 22:02:45.377 [main] Log - User click submit button
+[WARN ] 2020-03-08 22:02:45.530 [main] Log - All student header verification
+[WARN ] 2020-03-08 22:02:45.872 [main] Log - Creating student
+[INFO ] 2020-03-08 22:02:46.360 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 22:02:47.739 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 22:02:48.220 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 22:02:48.221 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 22:02:48.668 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 22:02:49.120 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:02:49.555 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:02:49.999 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 22:02:50.445 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 22:02:50.519 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 22:02:51.575 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:53:37.284 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-08 22:55:03.402 [main] Log - Scenario start name: As a User I should able to delete teacher
+[INFO ] 2020-03-08 22:55:38.629 [main] Log - Scenario start name: Verification of "All students" button
+[INFO ] 2020-03-08 22:55:44.763 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:55:46.467 [main] Log - Scenario start name: Verification of "cancel" button of the "edit" function
+[INFO ] 2020-03-08 22:55:51.609 [main] Log - Scenario start name: Verification of "EDIT" button to edit the student
+[INFO ] 2020-03-08 22:56:09.342 [main] Log - Scenario start name: As a User I should able to create student
+[INFO ] 2020-03-08 22:56:10.195 [main] Log - User on http://cybertektraining.com/
+[INFO ] 2020-03-08 22:56:10.911 [main] Log - User is clicking on students button
+[WARN ] 2020-03-08 22:56:11.911 [main] Log - Add student buttons verification
+[WARN ] 2020-03-08 22:56:11.977 [main] Log - All student buttons verifications
+[INFO ] 2020-03-08 22:56:12.032 [main] Log - Click Add student button
+[INFO ] 2020-03-08 22:56:12.670 [main] Log - Wait for visibility of add student header
+[WARN ] 2020-03-08 22:56:12.847 [main] Log - Add Header verification
+[INFO ] 2020-03-08 22:56:14.011 [main] Log - 
+[INFO ] 2020-03-08 22:56:14.011 [main] Log - User is entering first name
+[INFO ] 2020-03-08 22:56:15.285 [main] Log - User is entering last name
+[INFO ] 2020-03-08 22:56:16.614 [main] Log - User is entering email number
+[INFO ] 2020-03-08 22:56:18.154 [main] Log - User is entering password
+[INFO ] 2020-03-08 22:56:19.328 [main] Log - User is entering confirm password
+[INFO ] 2020-03-08 22:56:20.511 [main] Log - User is entering join date
+[INFO ] 2020-03-08 22:56:21.906 [main] Log - User is entering subject 
+[INFO ] 2020-03-08 22:56:22.574 [main] Log - User is entering mobile number
+[INFO ] 2020-03-08 22:56:22.863 [main] Log - User select gender
+[INFO ] 2020-03-08 22:56:23.148 [main] Log - User is entering admission number 
+[INFO ] 2020-03-08 22:56:24.419 [main] Log - User is entering birthday 
+[INFO ] 2020-03-08 22:56:25.748 [main] Log - User is entering major 
+[INFO ] 2020-03-08 22:56:25.972 [main] Log - User select the Batch
+[INFO ] 2020-03-08 22:56:26.359 [main] Log - User is entering section 
+[INFO ] 2020-03-08 22:56:26.482 [main] Log - User is entering permanent Address 
+[INFO ] 2020-03-08 22:56:27.285 [main] Log - User is entering company name 
+[INFO ] 2020-03-08 22:56:27.599 [main] Log - User is entering start day 
+[INFO ] 2020-03-08 22:56:27.904 [main] Log - User is entering street 
+[INFO ] 2020-03-08 22:56:28.426 [main] Log - User is entering state 
+[INFO ] 2020-03-08 22:56:28.639 [main] Log - User is entering title
+[INFO ] 2020-03-08 22:56:28.963 [main] Log - User is entering city 
+[INFO ] 2020-03-08 22:56:29.171 [main] Log - User is entering zipCode 
+[INFO ] 2020-03-08 22:56:29.341 [main] Log - User click submit button
+[WARN ] 2020-03-08 22:56:29.484 [main] Log - All student header verification
+[WARN ] 2020-03-08 22:56:29.862 [main] Log - Creating student
+[INFO ] 2020-03-08 22:56:30.281 [main] Log - Click on student that was created
+[WARN ] 2020-03-08 22:56:31.357 [main] Log - Full name verification in data base
+[INFO ] 2020-03-08 22:56:31.871 [main] Log - Data base join date convert to UI format
+[WARN ] 2020-03-08 22:56:31.898 [main] Log - Join date verification with data base
+[WARN ] 2020-03-08 22:56:32.329 [main] Log - Admission value verification with data base
+[WARN ] 2020-03-08 22:56:32.790 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:56:33.196 [main] Log - Birthday verification with data base
+[WARN ] 2020-03-08 22:56:33.608 [main] Log - Section verification with data base
+[WARN ] 2020-03-08 22:56:34.175 [main] Log - Subject verification with data base
+[INFO ] 2020-03-08 22:56:34.231 [main] Log - Scenario start name: I should be able to add a new teacher
+[INFO ] 2020-03-08 22:56:35.520 [main] Log - User on http://cybertektraining.com/
