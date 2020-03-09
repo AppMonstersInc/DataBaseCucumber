@@ -48,12 +48,6 @@ public class AddTeacherPage {
     @FindBy(xpath = "//select//option[.='Male']/..")
     public WebElement genderButton;
 
-    @FindBy(xpath = "//select//option[.='Male'] ")
-    public WebElement maleButton;
-
-    @FindBy(xpath = "//select//option[.='Female'] ")
-    public WebElement femaleButton;
-
     @FindBy(xpath = "//label[.='Salary']/..//input ")
     public WebElement salaryInputBox;
 
@@ -75,13 +69,13 @@ public class AddTeacherPage {
     @FindBy(xpath = "//label[.='Department']/..//select")
     public WebElement departmentInputBox;
 
-    @FindBy(xpath = "//select//option[.='Science']")
-    public WebElement scienceButton;
-
     @FindBy(xpath = "//select//option[.='12'] ")
     public WebElement batch12Button;
 
     @FindBy(xpath = "//div[@class='profile-widget']/h4//a")
     public List<WebElement> listOfTeachers;
+
+    @FindBy(xpath = "//div[@class='profile-widget']/h4/following-sibling::div")
+    public List<WebElement> listOfTeachersDepartment;
 
 }
