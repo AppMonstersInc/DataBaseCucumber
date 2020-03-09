@@ -17,7 +17,8 @@ public class Driver {
         if (driver == null) {
             switch (Config.getProperty("browser")){
                 case "chrome":
-                   WebDriverManager.chromedriver().setup();
+                    System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Desktop\\chicagoselenimb14\\src\\drivers\\chromedriver.exe");
+                  // WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
             }

@@ -26,11 +26,34 @@ public class AllStudentsPage {
     @FindBy(xpath = "//div[@class='profile-widget']//h4/a")
     public List<WebElement> allStudentsNames;
 
+
     @FindBy(xpath = "//a[@class='action-icon dropdown-toggle']")
     public List<WebElement> allStudentsThreeDots;
 
     @FindBy(xpath = "//a[.=' Edit']")
     public List<WebElement> allStudentsEdit;
+
+    @FindBy(xpath = "//*[@class='content-page']")
+    public List<WebElement> allStudentList;
+
+    @FindBy(xpath = "(//a[@data-toggle='dropdown'])[4]")
+    public WebElement threedot;
+
+    @FindBy (xpath = "//div[@class='dropdown profile-action show']//div")
+    public WebElement dropdownStudent;
+
+    @FindBy(xpath = "//div[@class='dropdown profile-action show']//div//a[2]")
+    public WebElement deleteButtonStudent;
+
+    @FindBy(xpath = "//button[.='Delete']")
+    public WebElement deleteConfirm;
+
+    @FindBy(xpath = "(//span[@class='text']//a)[1]")
+    public WebElement studentId;
+
+    @FindBy(linkText = "R")
+    public WebElement ricon;
+
 
 
 
