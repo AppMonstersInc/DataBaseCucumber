@@ -40,6 +40,14 @@ public class SeleniumUtils {
         System.out.println(result);
         return result;
     }
+    public static void explicitWaitVisibility(WebElement webElement){
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),20);
+        wait.until(ExpectedConditions.visibilityOf(webElement));
+    }
+    public static void explicitWaitClickable(WebElement webElement){
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),20);
+        wait.until(ExpectedConditions.elementToBeClickable(webElement));
+    }
 
 
 
